@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #d0d0e0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;    
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+#canvasContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 12px 40px;
+    width: 100%;
+    max-width: 450px;    
+    box-sizing: border-box;    
+}
+
+.buttons {
+    display: flex;
+    width: calc(20px + 30%);
+}
+
+.restart {
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    background-color: #d0d022;
+    color: #ffffff;
+    height: 36px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    outline: none;
+}

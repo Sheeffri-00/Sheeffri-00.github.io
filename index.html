@@ -1,1 +1,45 @@
-<!doctype html><html><head><base href="/"/><title>Ficha Movible con Desplazamiento Suave y Restricción</title><meta name="viewport" content="width=device-width,initial-scale=1"/><script defer="defer" src="/bundle.js"></script></head><body><div class="content"><div id="canvasContainer"><canvas id="gameCanvas" style="width: 100%; object-fit: contain;"></canvas></div><div class="buttons"><button class="restart">Restart</button></div></div></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selecciona un Juego</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      margin: 1rem;
+      background: #333;
+      color: #fff;
+      border: 2px solid #555;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .btn:hover {
+      background: #555;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Selecciona un Juego</h1>
+  <a href="2048/" class="btn">Juego 1 - 2048</a>
+  <a href="Brew-game/" class="btn">Juego 2 - Brew game</a>
+</body>
+</html>
